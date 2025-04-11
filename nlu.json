@@ -1,0 +1,763 @@
+{
+  "project" : {
+    "id" : "proyectodemo10minuto-1007552-Uda",
+    "name" : "proyectodemo10minuto-1007552-Uda",
+    "folder" : "/platform"
+  },
+  "settings" : {
+    "language" : "es",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "sts",
+    "timezone" : "UTC-06:00",
+    "extendedSettings" : {
+      "classificationAlgorithmVersion" : 1.0,
+      "useShared" : false
+    },
+    "shared" : false,
+    "validation" : {
+      "phraseValidationEnabled" : true,
+      "answerValidationEnabled" : true,
+      "phraseValidationThreshold" : 0.5,
+      "answerValidationThreshold" : 0.8
+    }
+  },
+  "intents" : [ {
+    "path" : "/BienvenidaMenu",
+    "answer" : "¡Hola! Bienvenido(a) al chatbot de soporte técnico. Por favor, selecciona una opción:\n1. Información general sobre Issabel y PBX\n2. Configuración de Issabel y telecomunicaciones\n3. Call centers y Aheeva\n4. Comunicaciones unificadas y funciones avanzadas\n5. Soporte técnico y seguridad\n6. Preguntas generales\n\nEscribe el número de la opción que deseas (por ejemplo, '1').",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Hola"
+    }, {
+      "text" : "Buenos días"
+    }, {
+      "text" : "Buenas tardes"
+    }, {
+      "text" : "¿Qué tal?"
+    }, {
+      "text" : "¿En qué puedes ayudarme?"
+    }, {
+      "text" : "¿Qué puedes hacer por mí?"
+    }, {
+      "text" : "Necesito ayuda"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Opcion1_InformacionGeneral",
+    "answer" : "Entendido, aquí tienes algunas preguntas comunes sobre Issabel y PBX:\n- ¿Qué es Issabel?\n- ¿Qué es un PBX?\n- ¿Cuántas extensiones soporta Issabel?\n\nEscribe tu pregunta para obtener más información.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "1"
+    }, {
+      "text" : "Opción 1"
+    }, {
+      "text" : "Información general"
+    }, {
+      "text" : "Quiero información sobre Issabel"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Opcion2_Configuracion",
+    "answer" : "Perfecto, aquí tienes algunas preguntas comunes sobre configuración:\n- ¿Cómo configuro una troncal SIP en Issabel?\n- ¿Cómo configuro un teléfono IP con Issabel?\n- ¿Cómo configuro un call center en Issabel?\n\nEscribe tu pregunta para obtener más información.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "2"
+    }, {
+      "text" : "Opción 2"
+    }, {
+      "text" : "Configuración"
+    }, {
+      "text" : "Quiero configurar algo en Issabel"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Opcion3_CallCentersAheeva",
+    "answer" : "Entendido, aquí tienes algunas preguntas comunes sobre call centers y Aheeva:\n- ¿Cómo configuro un call center en Issabel?\n- ¿Qué es Aheeva?\n- ¿Cómo integro Aheeva con Issabel?\n\nEscribe tu pregunta para obtener más información.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "3"
+    }, {
+      "text" : "Opción 3"
+    }, {
+      "text" : "Call centers"
+    }, {
+      "text" : "Quiero información sobre Aheeva"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Opcion4_ComunicacionesUnificadas",
+    "answer" : "Perfecto, aquí tienes algunas preguntas comunes sobre comunicaciones unificadas y funciones avanzadas:\n- ¿Qué son las comunicaciones unificadas?\n- ¿Cómo configuro videoconferencias en Issabel?\n- ¿Cómo agrego un chatbot a Issabel?\n\nEscribe tu pregunta para obtener más información.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "4"
+    }, {
+      "text" : "Opción 4"
+    }, {
+      "text" : "Comunicaciones unificadas"
+    }, {
+      "text" : "Funciones avanzadas"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Opcion5_SoporteSeguridad",
+    "answer" : "Entendido, aquí tienes algunas preguntas comunes sobre soporte técnico y seguridad:\n- ¿Por qué tengo problemas con el firewall en Issabel?\n- ¿Qué es Fail2ban en Issabel?\n- ¿Qué es GeoIP en Issabel?\n\nEscribe tu pregunta para obtener más información.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "5"
+    }, {
+      "text" : "Opción 5"
+    }, {
+      "text" : "Soporte técnico"
+    }, {
+      "text" : "Seguridad"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Opcion6_PreguntasGenerales",
+    "answer" : "Perfecto, aquí tienes algunas preguntas generales que puedo responder:\n- ¿A qué hora abren?\n- ¿Dónde están ubicados?\n- ¿Cómo los contacto?\n- ¿Qué servicios ofrecen?\n\nEscribe tu pregunta para obtener más información.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "6"
+    }, {
+      "text" : "Opción 6"
+    }, {
+      "text" : "Preguntas generales"
+    }, {
+      "text" : "Tengo una pregunta general"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Despedida",
+    "answer" : "¡Adiós! Gracias por contactarnos, que tengas un excelente día.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Adiós"
+    }, {
+      "text" : "Hasta luego"
+    }, {
+      "text" : "Nos vemos"
+    }, {
+      "text" : "Chao"
+    }, {
+      "text" : "Bye"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Ayuda",
+    "answer" : "Puedo ayudarte con información sobre nuestros servicios, horarios, ubicación, o contactarte con un agente. ¿Qué necesitas?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿En qué puedes ayudarme?"
+    }, {
+      "text" : "¿Qué puedes hacer por mí?"
+    }, {
+      "text" : "Necesito ayuda"
+    }, {
+      "text" : "¿Cómo me puedes ayudar?"
+    }, {
+      "text" : "¿Para qué sirves?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Horarios",
+    "answer" : "Nuestro horario de atención es de lunes a viernes de 9:00 a 18:00, y los sábados de 10:00 a 14:00. ¿Te gustaría saber más?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿A qué hora abren?"
+    }, {
+      "text" : "¿Cuál es el horario de atención?"
+    }, {
+      "text" : "¿Están abiertos ahora?"
+    }, {
+      "text" : "¿A qué hora cierran?"
+    }, {
+      "text" : "¿Qué días están abiertos?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Ubicacion",
+    "answer" : "Estamos ubicados en Avenida Principal 123, Ciudad de México. ¿Necesitas indicaciones para llegar?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿Dónde están ubicados?"
+    }, {
+      "text" : "¿Cuál es su dirección?"
+    }, {
+      "text" : "¿En qué ciudad están?"
+    }, {
+      "text" : "¿Dónde queda la tienda?"
+    }, {
+      "text" : "¿Cómo llego a su oficina?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/ServiciosProductos",
+    "answer" : "Ofrecemos una variedad de servicios, incluyendo soporte técnico, ventas en línea, y atención al cliente personalizada. ¿Te interesa alguno en particular?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿Qué servicios tienen?"
+    }, {
+      "text" : "¿Qué productos venden?"
+    }, {
+      "text" : "¿Qué ofrecen?"
+    }, {
+      "text" : "¿Qué puedo comprar aquí?"
+    }, {
+      "text" : "¿Cuáles son sus servicios?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Contacto",
+    "answer" : "Puedes contactarnos al teléfono (55) 1234-5678, por correo a info@empresa.com, o por WhatsApp al mismo número. ¿Cómo prefieres contactarnos?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿Cuál es su número de teléfono?"
+    }, {
+      "text" : "¿Cómo los contacto?"
+    }, {
+      "text" : "¿Tienen un correo electrónico?"
+    }, {
+      "text" : "¿Cuál es su WhatsApp?"
+    }, {
+      "text" : "¿Cómo puedo hablar con un agente?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/NoEntiendo",
+    "answer" : "Lo siento si no fui claro. ¿Puedes decirme qué parte no entendiste para explicarlo mejor?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "No entiendo"
+    }, {
+      "text" : "No entendí"
+    }, {
+      "text" : "¿Qué significa eso?"
+    }, {
+      "text" : "Puedes explicarlo mejor"
+    }, {
+      "text" : "No me queda claro"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Agradecimiento",
+    "answer" : "¡De nada! Estoy aquí para ayudarte. ¿Hay algo más en lo que pueda ayudarte?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Gracias"
+    }, {
+      "text" : "Muchas gracias"
+    }, {
+      "text" : "Te agradezco"
+    }, {
+      "text" : "Gracias por la ayuda"
+    }, {
+      "text" : "Muy amable"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Repetir",
+    "answer" : "Claro, voy a repetir la información. ¿Cuál es la última cosa que te dije que quieres que repita?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿Puedes repetir?"
+    }, {
+      "text" : "Repite, por favor"
+    }, {
+      "text" : "¿Qué dijiste?"
+    }, {
+      "text" : "Dilo otra vez"
+    }, {
+      "text" : "¿Me lo repites?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/QueEsIssabel",
+    "answer" : "Issabel es una plataforma de software libre y de código abierto para comunicaciones unificadas. Está basada en Asterisk y permite gestionar un PBX IP, además de incluir funciones como email, SMS, chat, videoconferencias y herramientas de colaboración. Es ideal para empresas que buscan una solución de telefonía IP escalable y personalizable.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿Qué es Issabel?"
+    }, {
+      "text" : "¿Para qué sirve Issabel?"
+    }, {
+      "text" : "¿Qué hace Issabel?"
+    }, {
+      "text" : "¿Issabel qué es?"
+    }, {
+      "text" : "Explícame qué es Issabel"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/QueEsUnPBX",
+    "answer" : "Un PBX, o Private Branch Exchange, es un sistema telefónico privado que permite gestionar las comunicaciones dentro de una empresa. Conecta extensiones internas y enruta llamadas externas a través de troncales, ya sea por PSTN o VoIP. Un PBX IP, como Issabel, usa internet para manejar las llamadas, lo que reduce costos y agrega funciones avanzadas como videoconferencias y mensajería.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿Qué es un PBX?"
+    }, {
+      "text" : "¿Qué significa PBX?"
+    }, {
+      "text" : "¿Para qué sirve un PBX?"
+    }, {
+      "text" : "¿Qué hace un sistema PBX?"
+    }, {
+      "text" : "Explícame qué es un PBX"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/ComoConfigurarTroncalSIP",
+    "answer" : "Para configurar una troncal SIP en Issabel, sigue estos pasos: 1) Desde el panel de Issabel, ve a 'PBX' y selecciona 'Trunks'. 2) Haz clic en 'Add SIP Trunk'. 3) Ingresa un nombre para la troncal y el 'Outbound Caller ID'. 4) En 'Outgoing Settings', configura los detalles del proveedor SIP, como host, usuario y contraseña. 5) Guarda los cambios y aplica la configuración. Asegúrate de que tu firewall permita el tráfico SIP y verifica el registro en 'Asterisk-Cli'.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿Cómo configuro una troncal SIP en Issabel?"
+    }, {
+      "text" : "¿Cómo añadir una troncal SIP?"
+    }, {
+      "text" : "¿Cómo configurar troncales SIP?"
+    }, {
+      "text" : "¿Qué pasos sigo para una troncal SIP en Issabel?"
+    }, {
+      "text" : "Configuración de troncal SIP en Issabel"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/QueEsUnaTroncalSIP",
+    "answer" : "Una troncal SIP (Session Initiation Protocol) es una conexión virtual que permite a un PBX IP, como Issabel, comunicarse con un proveedor de VoIP o con otro sistema telefónico. Reemplaza las líneas telefónicas tradicionales y transmite voz, video y otros datos a través de internet, ofreciendo flexibilidad, escalabilidad y costos más bajos.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿Qué es una troncal SIP?"
+    }, {
+      "text" : "¿Qué significa troncal SIP?"
+    }, {
+      "text" : "¿Para qué sirve una troncal SIP?"
+    }, {
+      "text" : "Explícame qué es una troncal SIP"
+    }, {
+      "text" : "¿Qué hace una troncal SIP?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/ComoConfigurarTelefonoIP",
+    "answer" : "Para configurar un teléfono IP con Issabel: 1) Crea una extensión en Issabel desde 'PBX' > 'Extensions' > 'Add SIP Extension'. 2) Anota el número de extensión, el usuario y la contraseña generada. 3) En el teléfono IP, accede a su interfaz web o menú de configuración. 4) Ingresa los datos de la extensión (usuario, contraseña, y la IP del servidor Issabel como servidor SIP). 5) Guarda y reinicia el teléfono. Verifica que se registre correctamente en Issabel desde 'Reports' > 'SIP Status'.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿Cómo configuro un teléfono IP con Issabel?"
+    }, {
+      "text" : "¿Cómo conectar un teléfono IP a Issabel?"
+    }, {
+      "text" : "¿Cómo configurar teléfonos IP?"
+    }, {
+      "text" : "Pasos para configurar un teléfono IP en Issabel"
+    }, {
+      "text" : "¿Qué hago para usar un teléfono IP con Issabel?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/QueSonComunicacionesUnificadas",
+    "answer" : "Las comunicaciones unificadas (UC) son un conjunto de herramientas que integran diferentes formas de comunicación, como voz, video, mensajería, email y colaboración, en una sola plataforma. Con Issabel, por ejemplo, puedes tener telefonía IP, videoconferencias, chat y email en un solo sistema, lo que mejora la eficiencia y la colaboración en una empresa.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿Qué son las comunicaciones unificadas?"
+    }, {
+      "text" : "¿Qué significa comunicaciones unificadas?"
+    }, {
+      "text" : "¿Para qué sirven las comunicaciones unificadas?"
+    }, {
+      "text" : "Explícame qué son las comunicaciones unificadas"
+    }, {
+      "text" : "¿Qué incluye las comunicaciones unificadas?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/ComoConfigurarCallCenterIssabel",
+    "answer" : "Para configurar un call center en Issabel: 1) Ve a 'PBX' > 'Call Center'. 2) Crea una cola de llamadas en 'Queues' y asigna agentes. 3) Configura las reglas de manejo de llamadas, como tiempos de espera y distribución. 4) En el módulo de 'Call Center', crea campañas entrantes o salientes y asigna agentes. 5) Habilita reportes estadísticos para monitorear el rendimiento. Asegúrate de que los agentes tengan extensiones SIP activas.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿Cómo configuro un call center en Issabel?"
+    }, {
+      "text" : "¿Cómo usar el módulo de call center en Issabel?"
+    }, {
+      "text" : "Pasos para configurar un call center en Issabel"
+    }, {
+      "text" : "¿Cómo hago un call center con Issabel?"
+    }, {
+      "text" : "Configuración de call center en Issabel"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/QueEsAheeva",
+    "answer" : "Aheeva es una solución de software para call centers que ofrece herramientas para gestionar operaciones de contacto con clientes, como manejo de llamadas entrantes y salientes, grabación de llamadas, reportes y análisis. Se integra con sistemas PBX como Issabel para optimizar la atención al cliente y mejorar la productividad de los agentes.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿Qué es Aheeva?"
+    }, {
+      "text" : "¿Para qué sirve Aheeva?"
+    }, {
+      "text" : "¿Qué hace Aheeva?"
+    }, {
+      "text" : "Explícame qué es Aheeva"
+    }, {
+      "text" : "¿Aheeva qué es?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/ComoIntegrarAheevaConIssabel",
+    "answer" : "Para integrar Aheeva con Issabel: 1) Asegúrate de que Issabel esté configurado con troncales SIP y extensiones funcionales. 2) En Aheeva, configura una conexión SIP hacia el servidor Issabel ingresando la IP y las credenciales SIP. 3) En Issabel, crea una troncal SIP para Aheeva y asigna rutas entrantes y salientes. 4) Prueba la integración haciendo una llamada desde Aheeva a través de Issabel. Es posible que necesites soporte técnico de Aheeva para ajustes específicos.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿Cómo integro Aheeva con Issabel?"
+    }, {
+      "text" : "¿Cómo usar Aheeva con Issabel?"
+    }, {
+      "text" : "Pasos para integrar Aheeva con Issabel"
+    }, {
+      "text" : "¿Cómo configuro Aheeva en Issabel?"
+    }, {
+      "text" : "Integración de Aheeva con Issabel"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/ProblemasConFirewallIssabel",
+    "answer" : "Los problemas con el firewall en Issabel suelen deberse a reglas que bloquean el tráfico SIP o a incompatibilidades con la plataforma. Para solucionarlo: 1) Verifica que los puertos SIP (5060, 5061) y RTP (10000-20000) estén abiertos en el firewall. 2) En Issabel, revisa las reglas de firewall en 'Security' > 'Firewall' y habilita el tráfico SIP. 3) Si usas un servidor en la nube, prueba instalar Issabel en un entorno local para descartar problemas de compatibilidad. 4) Asegúrate de que la función Fail2ban no esté bloqueando tu IP por error.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿Por qué tengo problemas con el firewall en Issabel?"
+    }, {
+      "text" : "No puedo acceder a Issabel por el firewall"
+    }, {
+      "text" : "Problemas de conexión con Issabel y firewall"
+    }, {
+      "text" : "¿Cómo soluciono problemas de firewall en Issabel?"
+    }, {
+      "text" : "Firewall bloquea Issabel"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/QueEsFail2banIssabel",
+    "answer" : "Fail2ban es una herramienta de seguridad en Issabel que detecta intentos de intrusión, como ataques de fuerza bruta, y bloquea las direcciones IP desde las que se originan. En Issabel, se gestiona a través de la interfaz web y protege tu PBX de hackers que intenten acceder a tus extensiones o troncales SIP.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿Qué es Fail2ban en Issabel?"
+    }, {
+      "text" : "¿Para qué sirve Fail2ban en Issabel?"
+    }, {
+      "text" : "¿Cómo funciona Fail2ban en Issabel?"
+    }, {
+      "text" : "Explícame qué es Fail2ban"
+    }, {
+      "text" : "¿Fail2ban qué hace en Issabel?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/ComoConfigurarVideoconferenciaIssabel",
+    "answer" : "Para configurar videoconferencias en Issabel: 1) Ve a 'PBX' > 'Conferences' y crea una sala de videoconferencia. 2) Asegúrate de que los dispositivos (teléfonos IP o softphones) soporten video y usen códecs como H.264. 3) Configura los puertos necesarios en el firewall (por ejemplo, 5060 para SIP y 10000-20000 para RTP). 4) Invita a los participantes a unirse a la sala usando sus extensiones. Nota: algunos usuarios han reportado problemas con la interfaz de videoconferencias si hay configuraciones en diferentes idiomas; asegúrate de usar un idioma consistente.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿Cómo configuro videoconferencias en Issabel?"
+    }, {
+      "text" : "¿Cómo usar videoconferencias en Issabel?"
+    }, {
+      "text" : "Pasos para videoconferencias en Issabel"
+    }, {
+      "text" : "¿Cómo hago una videoconferencia con Issabel?"
+    }, {
+      "text" : "Configuración de videoconferencia en Issabel"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/ComoAgregarChatbotIssabel",
+    "answer" : "Issabel no tiene un módulo nativo para chatbots, pero puedes integrarlo mediante un servidor externo. 1) Crea un chatbot usando una plataforma como Tovie o Dialogflow. 2) Configura el chatbot para interactuar a través de SIP o WebRTC, que Issabel soporta. 3) En Issabel, crea una extensión SIP para el chatbot y conecta el servidor del chatbot a esa extensión. 4) Usa un IVR en Issabel para enrutar las interacciones de los usuarios al chatbot. Esto puede requerir desarrollo personalizado.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿Cómo agrego un chatbot a Issabel?"
+    }, {
+      "text" : "¿Cómo usar un chatbot con Issabel?"
+    }, {
+      "text" : "Pasos para integrar un chatbot en Issabel"
+    }, {
+      "text" : "¿Cómo configuro un chatbot en Issabel?"
+    }, {
+      "text" : "Integración de chatbot con Issabel"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/CuantasExtensionesSoportaIssabel",
+    "answer" : "Issabel soporta hasta 200 extensiones de usuarios y 50 troncales SIP, con un máximo de 80 llamadas concurrentes, dependiendo del hardware y la configuración. Si necesitas más capacidad, puedes escalar con hardware más potente o usar Issabel Multi-Tenant para gestionar múltiples clientes desde una sola instancia.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿Cuántas extensiones soporta Issabel?"
+    }, {
+      "text" : "¿Cuántos usuarios puede manejar Issabel?"
+    }, {
+      "text" : "¿Cuál es el límite de extensiones en Issabel?"
+    }, {
+      "text" : "¿Cuántas extensiones puedo tener en Issabel?"
+    }, {
+      "text" : "Límite de usuarios en Issabel"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/QueEsGeoIPIssabel",
+    "answer" : "GeoIP en Issabel es una función de seguridad que permite limitar el acceso a tu PBX según la ubicación geográfica de las IPs. Por ejemplo, puedes bloquear conexiones desde ciertos países o permitir solo accesos desde tu región. Esto ayuda a proteger tu sistema de ataques de hackers provenientes de ubicaciones conocidas por actividades maliciosas.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "¿Qué es GeoIP en Issabel?"
+    }, {
+      "text" : "¿Para qué sirve GeoIP en Issabel?"
+    }, {
+      "text" : "¿Cómo funciona GeoIP en Issabel?"
+    }, {
+      "text" : "Explícame qué es GeoIP"
+    }, {
+      "text" : "¿GeoIP qué hace en Issabel?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/OpcionInvalida",
+    "answer" : "Lo siento, esa no es una opción válida. Por favor, selecciona un número del 1 al 6. Escribe 'Hola' para volver a ver el menú.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "No entiendo"
+    }, {
+      "text" : "Eso no es una opción"
+    }, {
+      "text" : "Opción inválida"
+    }, {
+      "text" : "No es un número válido"
+    }, {
+      "text" : "Qué"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  } ],
+  "entities" : [ ],
+  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.phone-number", "duckling.email", "duckling.url" ],
+  "spellerDictionary" : [ ],
+  "systemEntities" : [ {
+    "name" : "duckling.number",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.ordinal",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.distance",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.time",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.date",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.time-of-day",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.phone-number",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.email",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.url",
+    "version" : "v2",
+    "enabled" : true
+  } ],
+  "faq" : [ ],
+  "skills" : [ ]
+}
